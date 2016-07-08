@@ -13,7 +13,7 @@ Created by David Sibrian
 * Echo (parrot) </br>
 
 ## Credits
-All graphical content provided by Udacity in their ["Intro to iOS App Development"] course(https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585) 
+All graphical content provided by Udacity in their ["Intro to iOS App Development"] (https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585) 
 
 ## Screenshots
 Below are screenshots of the initial view, view while recording, and view where sounds effects are chosen
