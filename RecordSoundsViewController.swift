@@ -83,6 +83,17 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         try! audioSession.setActive(false)
     }
     
+    @IBAction func infoButtonPressed(sender: UIButton) {
+        let alertController = UIAlertController(title: "How To:", message: "Press the microphone to record. When you're done, press stop and select one of the sound effects on the next screen.", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        alertController.addAction(UIAlertAction(title: "Got it!", style: UIAlertActionStyle.Default, handler: nil))
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
+    
+    
+    
+    
     func audioRecorderDidFinishRecording(recorder: AVAudioRecorder, successfully flag: Bool) {
         print("AVRecorder has fininshed saving the recording")
         

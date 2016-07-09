@@ -38,6 +38,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kb9-bE-vj2">
+                                <rect key="frame" x="20" y="570" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="6rU-91-dC4"/>
+                                    <constraint firstAttribute="height" constant="22" id="Zpl-Dt-Uim"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="infoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6eQ-2a-mu9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -45,7 +55,9 @@
                             <constraint firstItem="mmj-2K-6JH" firstAttribute="top" secondItem="BJ2-hW-J2K" secondAttribute="bottom" constant="18" id="GEc-N6-V9J"/>
                             <constraint firstItem="JDv-mh-gP8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mvv-F2-d0J"/>
                             <constraint firstItem="BJ2-hW-J2K" firstAttribute="centerX" secondItem="JDv-mh-gP8" secondAttribute="centerX" id="Pb4-ms-gUl"/>
+                            <constraint firstItem="Kb9-bE-vj2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UFs-Ca-4oU"/>
                             <constraint firstItem="mmj-2K-6JH" firstAttribute="centerX" secondItem="BJ2-hW-J2K" secondAttribute="centerX" id="Vo3-fX-N78"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kb9-bE-vj2" secondAttribute="bottom" constant="8" id="jLC-e9-FjF"/>
                             <constraint firstItem="BJ2-hW-J2K" firstAttribute="top" secondItem="JDv-mh-gP8" secondAttribute="bottom" constant="23" id="lZx-86-KHM"/>
                         </constraints>
                     </view>
