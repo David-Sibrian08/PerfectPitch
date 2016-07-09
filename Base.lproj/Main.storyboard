@@ -63,6 +63,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="QFY-6u-yA3"/>
                     <connections>
+                        <outlet property="infoButton" destination="Kb9-bE-vj2" id="9Je-2C-qwo"/>
                         <outlet property="recordButton" destination="JDv-mh-gP8" id="jeU-9C-MyL"/>
                         <outlet property="stopRecordingButton" destination="mmj-2K-6JH" id="C90-jS-JhQ"/>
                         <outlet property="tapToRecordLabel" destination="BJ2-hW-J2K" id="nTk-tQ-dGD"/>
